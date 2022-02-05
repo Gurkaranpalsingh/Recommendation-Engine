@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LikedMovies">
+    <TextView
+        android:id="@+id/liked_Movies_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Liked movies"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gradient_normal"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/liked_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#FFF"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="4dp"
+            android:footerDividersEnabled="true"
+            />
+
+    </FrameLayout>
+</LinearLayout>

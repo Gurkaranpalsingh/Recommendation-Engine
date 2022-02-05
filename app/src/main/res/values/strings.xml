@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recommendation Engine</string>
+    <string name="my_image_description">description</string>
+    <string name="breaking_title">Top Rated</string>
+    <string name="action_string">Action</string>
+    <string name="popular_string">Popular</string>
+    <string name="top_rated_text_string"> Stacker presents the 100 best movies of all time, as determined by weighted IMDb ratings and Metascores.</string>
+    <string name="popular_text_string">Whether you want romance, comedy, drama, or any genre in between, these are the are most popular movies to watch now</string>
+    <string name="action_text_string">Action film is a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence.</string>
+</resources>

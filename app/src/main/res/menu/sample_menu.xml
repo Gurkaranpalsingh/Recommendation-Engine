@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+         android:id="@+id/favourite"
+        android:icon="@drawable/ic_baseline_favorite_2"
+        android:title="My Favourite"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/recommend"
+        android:icon="@drawable/ic_baseline_book_online_24"
+        android:title="My Favourite"
+        app:showAsAction="always"
+        />
+
+</menu>
